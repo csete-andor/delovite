@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Libre Franklin b;
+    src: url(LibreFranklin/static/LibreFranklin-Bold.ttf);
+}
+@font-face {
+    font-family: Libre Franklin i;
+    src: url(LibreFranklin/static/LibreFranklin-Italic.ttf);
+}
+@font-face {
+    font-family: Libre Franklin sbi;
+    src: url(LibreFranklin/static/LibreFranklin-SemiBoldItalic.ttf);
+}
+body{
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    font-family: Libre Franklin b;
+    height: 2000px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header .links{
+    position: absolute;
+    top: 4em;
+    right: 1em;
+}
+header .links a{
+    padding: 20px;
+}
+main{
+    width: 70vw;
+    margin: auto;
+}
+footer{
+    position: absolute;
+    bottom: 5em;
+    left: 3em;
+    color: #959595;
+}
+footer .h3{
+    font-size: 30px;
+    margin: 0;
+}
+footer a{
+    color: #959595;
+}
