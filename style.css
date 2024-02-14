@@ -16,6 +16,7 @@ body{
     color: white;
     font-family: Libre Franklin b;
     height: 2000px;
+    text-align: center;
 }
 article{
     height: max-content;
@@ -39,16 +40,30 @@ header .links a{
 main{
     width: 70vw;
     margin: auto;
+    margin-top: 20em;
 }
 footer{
     position: absolute;
     bottom: -100vmax;
     left: 3em;
     color: #959595;
+    font-size: 15px;
+    text-align: left;
+}
+main h1{
+    font-size: 33px;
+}
+.rect{
+    padding: 10px;
+    border: white 2px solid;
+    border-radius: 0px;
 }
 footer .h3{
-    font-size: 30px;
+    font-size: 23px;
     margin: 0;
+}
+section{
+    margin-top: 20em;
 }
 footer a{
     color: #959595;
